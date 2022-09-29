@@ -1,6 +1,9 @@
 chain.dir=network/parse/chains
 chain.topic.map.file=network/parse/main/chain-topic-map.json
 
+signature.enabled=false
+original.enabled=false
+
 kafka.group.id=BRANCH.network.parse.main
 
 topic.output=BRANCH.network.triage.input
